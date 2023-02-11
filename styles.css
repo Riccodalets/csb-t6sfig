@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+#root {
+  height: 100vh;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(download.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1rem 0;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+.FieldLabel {
+  display: inline-block;
+  width: 10.7em;
+  text-align: left;
+  margin-left: 0px;
+}
+h2 {
+  margin-bottom: 1em;
+}
+.profile-img {
+  width: 10em;
+}
+.profile p {
+  width: 16em;
+}
+
+.discription p {
+  margin: 2em;
+  width: 17em;
+}
+.radioButtons {
+  display: flex;
+}
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  height: 650px;
+  background: #fff;
+  border-radius: 3rem;
+  overflow: hidden;
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.profile {
+  width: 40%;
+  height: 100%;
+  padding: 2em;
+  background-color: #ffd300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.TextArea {
+  display: flex;
+  align-items: center;
+}
+.description {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #ff9200;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+.descript {
+  width: 100%;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2.5rem;
+  text-align: center;
+  margin-top: 2em;
+}
+.profile .description {
+  text-align: center;
+}
+.info {
+  width: 100%;
+  height: 100%;
+  padding: 2em;
+}
+.info-fill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: inline-block;
+  text-align: right;
+  margin-right: 0px;
+}
+
+imag .icon {
+  width: 4em;
+}
+.toggleButton {
+  margin: 2em auto;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: black;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    margin: 0;
+    padding: 0px;
+    overflow: inherit;
+  }
+
+  .TextArea {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-fill {
+    display: flex;
+  }
+  .info {
+    padding: 0;
+  }
+  .description p {
+    margin: 1em;
+    width: fit-content;
+  }
+  .profile {
+    margin: 0;
+    width: 100%;
+  }
+
+  .profile p {
+    width: fit-content;
+    margin: 0 0 3em 0;
+  }
+  .profile-img {
+    width: 7em;
+  }
+  .toggleButton {
+    margin: 2em auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .heading {
+    margin: 2em 0;
+  }
+  form {
+    padding: 2em 0.5em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    text-align: left;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+}
